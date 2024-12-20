@@ -9,6 +9,7 @@ import UIKit
 
 class MainViewController: UIViewController, UITableViewDataSource, UISearchBarDelegate {
     
+    
     @IBOutlet weak var tableView: UITableView!
     
     var list: [Superhero] = []
